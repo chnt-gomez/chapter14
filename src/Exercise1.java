@@ -24,10 +24,13 @@ public class Exercise1 {
 
         String[] nombres = NameListService.getAllNames();
 
-        /*
-        Escriba aqui su solucion
-         */
-
+        for (int i=0; i<nombres.length; i++){
+            if (i%7 == 0){ //Utilizando el MODULO de 7 podemos saber si el indice (i) es multiplo de 7
+                System.out.println("OpenMarket!");
+            }else{
+                System.out.println(nombres[i]);
+            }
+        }
     }
 
 }

@@ -17,9 +17,10 @@ public class Exercise2 {
         String[] nombres = NameListService.getAllNames();
 
         for (int i=0; i<nombres.length; i++){
-            /*
-            Escriba aqui su codigo
-             */
+
+            for (int j=0)
+
+
         }
 
     }

@@ -11,6 +11,10 @@ public class Exercise3 {
      * Si el numero de "a" encontrado es 0. el nombre quedara completamente tachado.
      */
 
+    /**
+     * Bonus. Define el tiempo de ejecucion de tu algoritmo y busca una solucion mas optima
+     */
+
 
     public static void main(String[] args) {
 

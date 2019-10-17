@@ -9,16 +9,32 @@ public class Exercise2 {
      */
 
     /**
-     * Bonus: Usa la expresion while en lugar del for
+     * Bonus: Utilice for each in en lugar de un for regular
      */
+
 
     public static void main(String[] args) {
 
-        String[] nombres = NameListService.getAllNames();
+        String[] names = NameListService.getAllNames();
 
-        for (int i=0; i<nombres.length; i++){
+        for (String name : names){
 
-            for (int j=0)
+            String arrayName[] = NameListService.asArray(name);
+            int count = 0;
+
+
+            for (String letra : arrayName){
+                if (letra.toLowerCase().equals("a"))
+                    count ++;
+            }
+
+            System.out.print(name);
+
+            if (count >= 3){
+                System.out.println(" M");
+            }else{
+                System.out.println("");
+            }
 
 
         }

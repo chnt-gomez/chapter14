@@ -18,4 +18,8 @@ public class NameListService {
         return result.stream().toArray(n -> new String[n]);
     }
 
+    public static String[] asArray(String arg){
+        return arg.split("");
+    }
+
 }
